@@ -1,0 +1,39 @@
+.brand-image {
+    width: 33px !important;
+    height: 33px;
+}
+
+.recent-users .user {
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: solid 1px #f1f1f1;
+}
+
+.recent-users .user-extra {
+    font-size: 12px;
+}
+
+.recent-users .user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.recent-orders .card-body {
+    padding: 0px;
+}
+
+.user-img{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.user-manage td {
+    font-size: 14px;
+}
+
+.paid{
+    background: rgb(1 128 41) !important;
+    color: #fff;
+}
