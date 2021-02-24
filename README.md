@@ -19,7 +19,8 @@ This is a very simple elegant admin dashboard starter template build in Laravel 
 4. cp .env.example ./.env
 5. change required database settings
 6. php artisan key:generate
-7. php artisan db:seed
-8. php artisan serve
-9. browse to http://127.0.0.1:8000
-10. admin login email:admin@gmail.com password:password
+7. php artisan migrate
+8. php artisan db:seed
+9. php artisan serve
+10. browse to http://127.0.0.1:8000
+11. admin login email:admin@gmail.com password:password
