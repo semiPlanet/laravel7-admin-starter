@@ -35,8 +35,8 @@ class UserSeeder extends Seeder
         //create admin
 
         $user = Admin::create([
-            "name" => 'Safi Khan',
-            "email" => 'safifalak@gmail.com',
+            "name" => 'Admin Name',
+            "email" => 'admin@gmail.com',
             "password"  => Hash::make('password'),
             "remember_token" => Str::random(10),
             "mobile"    => $faker->phoneNumber
